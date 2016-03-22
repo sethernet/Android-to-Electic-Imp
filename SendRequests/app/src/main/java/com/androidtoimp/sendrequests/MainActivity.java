@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
             try {
 
                 final TextView outputView = (TextView) findViewById(R.id.showOutput);
-                URL url = new URL("https://agent.electricimp.com/c9GpK4nk4-qF");
+                URL url = new URL("Your Agent URL Here");
 
                 HttpURLConnection connection = (HttpURLConnection)url.openConnection();
                 String urlParameters = "Testing Post";
